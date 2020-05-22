@@ -29,7 +29,7 @@ function deleteRow(currentRowId) {
    
 	 $.ajax({
 			type: "POST",
-			url: "/SampleHelloWorldApplication/employee/delete/" + currentRowId,
+			url: "/SpringMVCCrudWithHibernate/employee/delete/" + currentRowId,
 			cache: false,
 			success : function(data) {
 				

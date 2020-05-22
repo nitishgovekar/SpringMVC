@@ -1,4 +1,4 @@
-package com.bnt.helloworld.controller;
+package com.helloworld.controller;
 
 import java.util.List;
 
@@ -14,9 +14,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bnt.helloworld.domain.Employee;
-import com.bnt.helloworld.domain.User;
-import com.bnt.helloworld.service.ILoginService;
+import com.helloworld.domain.Employee;
+import com.helloworld.domain.User;
+import com.helloworld.service.ILoginService;
 
 @Controller
 public class LoginController {

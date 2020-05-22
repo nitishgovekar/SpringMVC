@@ -1,4 +1,4 @@
-package com.bnt.helloworld.dao;
+package com.helloworld.dao;
 
 import java.util.List;
 
@@ -9,9 +9,9 @@ import javax.persistence.Query;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Repository;
 
-import com.bnt.helloworld.domain.User;
-import com.bnt.helloworld.entity.EmployeeEntity;
-import com.bnt.helloworld.entity.UserEntity;
+import com.helloworld.domain.User;
+import com.helloworld.entity.EmployeeEntity;
+import com.helloworld.entity.UserEntity;
 
 @Repository
 @Qualifier("loginDaoOperation")

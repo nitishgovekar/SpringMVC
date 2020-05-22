@@ -1,8 +1,8 @@
-package com.bnt.helloworld.service;
+package com.helloworld.service;
 
 import java.util.List;
 
-import com.bnt.helloworld.domain.Employee;
+import com.helloworld.domain.Employee;
 
 public interface IEmployeeService {
 	

@@ -1,4 +1,4 @@
-package com.bnt.helloworld.service;
+package com.helloworld.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,13 +7,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
-import com.bnt.helloworld.dao.ILoginDAOOperation;
-import com.bnt.helloworld.domain.Employee;
-import com.bnt.helloworld.domain.User;
-import com.bnt.helloworld.entity.EmployeeEntity;
-import com.bnt.helloworld.entity.UserEntity;
-import com.bnt.helloworld.transformer.EmployeeEntityTransformer;
-import com.bnt.helloworld.transformer.LoginEntityTransformer;
+import com.helloworld.dao.ILoginDAOOperation;
+import com.helloworld.domain.Employee;
+import com.helloworld.domain.User;
+import com.helloworld.entity.EmployeeEntity;
+import com.helloworld.entity.UserEntity;
+import com.helloworld.transformer.EmployeeEntityTransformer;
+import com.helloworld.transformer.LoginEntityTransformer;
 
 @Service
 @Qualifier("loginService")

@@ -1,4 +1,4 @@
-package com.bnt.helloworld.entity;
+package com.helloworld.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

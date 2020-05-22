@@ -1,4 +1,4 @@
-package com.bnt.helloworld.restcontroller;
+package com.helloworld.restcontroller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bnt.helloworld.domain.Employee;
-import com.bnt.helloworld.service.IEmployeeService;
+import com.helloworld.domain.Employee;
+import com.helloworld.service.IEmployeeService;
 
 @RestController
 @RequestMapping("/employee")

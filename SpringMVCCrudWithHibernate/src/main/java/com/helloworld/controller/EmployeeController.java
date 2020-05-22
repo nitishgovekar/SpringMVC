@@ -1,4 +1,4 @@
-package com.bnt.helloworld.controller;
+package com.helloworld.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.bnt.helloworld.domain.Employee;
-import com.bnt.helloworld.service.IEmployeeService;
+import com.helloworld.domain.Employee;
+import com.helloworld.service.IEmployeeService;
 
 @Controller
 public class EmployeeController {

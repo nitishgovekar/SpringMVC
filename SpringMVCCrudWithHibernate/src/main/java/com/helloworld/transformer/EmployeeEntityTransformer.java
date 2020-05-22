@@ -1,9 +1,9 @@
-package com.bnt.helloworld.transformer;
+package com.helloworld.transformer;
 
 import org.springframework.stereotype.Service;
 
-import com.bnt.helloworld.domain.Employee;
-import com.bnt.helloworld.entity.EmployeeEntity;
+import com.helloworld.domain.Employee;
+import com.helloworld.entity.EmployeeEntity;
 
 @Service
 public class EmployeeEntityTransformer {

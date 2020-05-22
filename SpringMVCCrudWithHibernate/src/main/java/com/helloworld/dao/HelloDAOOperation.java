@@ -1,4 +1,4 @@
-package com.bnt.helloworld.dao;
+package com.helloworld.dao;
 
 import org.springframework.stereotype.Repository;
 

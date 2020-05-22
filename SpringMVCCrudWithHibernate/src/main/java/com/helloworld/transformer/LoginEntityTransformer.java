@@ -1,9 +1,9 @@
-package com.bnt.helloworld.transformer;
+package com.helloworld.transformer;
 
 import org.springframework.stereotype.Service;
 
-import com.bnt.helloworld.domain.User;
-import com.bnt.helloworld.entity.UserEntity;
+import com.helloworld.domain.User;
+import com.helloworld.entity.UserEntity;
 
 @Service
 public class LoginEntityTransformer {

@@ -1,4 +1,4 @@
-package com.bnt.helloworld.domain;
+package com.helloworld.domain;
 
 public class User {
 

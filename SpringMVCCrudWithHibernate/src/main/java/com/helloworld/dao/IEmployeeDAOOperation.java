@@ -1,8 +1,8 @@
-package com.bnt.helloworld.dao;
+package com.helloworld.dao;
 
 import java.util.List;
 
-import com.bnt.helloworld.entity.EmployeeEntity;
+import com.helloworld.entity.EmployeeEntity;
 
 public interface IEmployeeDAOOperation {
 	

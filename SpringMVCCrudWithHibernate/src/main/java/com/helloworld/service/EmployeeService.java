@@ -1,4 +1,4 @@
-package com.bnt.helloworld.service;
+package com.helloworld.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.bnt.helloworld.dao.IEmployeeDAOOperation;
-import com.bnt.helloworld.domain.Employee;
-import com.bnt.helloworld.entity.EmployeeEntity;
-import com.bnt.helloworld.transformer.EmployeeEntityTransformer;
+import com.helloworld.dao.IEmployeeDAOOperation;
+import com.helloworld.domain.Employee;
+import com.helloworld.entity.EmployeeEntity;
+import com.helloworld.transformer.EmployeeEntityTransformer;
 
 @Service
 @Qualifier("employeeService")

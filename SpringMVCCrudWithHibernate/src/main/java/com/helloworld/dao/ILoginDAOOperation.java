@@ -1,9 +1,9 @@
-package com.bnt.helloworld.dao;
+package com.helloworld.dao;
 
 import java.util.List;
 
-import com.bnt.helloworld.domain.User;
-import com.bnt.helloworld.entity.UserEntity;
+import com.helloworld.domain.User;
+import com.helloworld.entity.UserEntity;
 
 public interface ILoginDAOOperation {
 

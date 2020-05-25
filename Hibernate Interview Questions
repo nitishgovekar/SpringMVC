@@ -212,7 +212,7 @@ Ans - Yes , we cane a method anmed as
 	List<Object[]> rows = query.list();
 
 --------------------------------------------------------------------------
-Ques. What is lazy nad eager loading in hibernate?
+Ques. What is lazy and eager loading in hibernate?
 Ans -
 Eager Loading is a design pattern in which data initialization occurs on the spot
 Lazy Loading is a design pattern which is used to defer initialization of an object as long as it's possible
